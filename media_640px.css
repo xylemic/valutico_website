@@ -1,9 +1,9 @@
 /* sm */
 @media (max-width: 640px) {
   .wrapper {
-    width: 475px;
+    width: 100%;
     margin: 0 auto;
-    /* border: 2px solid black; */
+    border: 2px solid black;
   }
 
   .header .nav-section .logo img {
@@ -33,7 +33,7 @@
 
   .hero-section {
     margin: 80px auto;
-    width: 75%;
+    width: 100%;
   }
 
   .hero-section h1 {
@@ -77,13 +77,22 @@
   }
 
   .ext-hero-section {
-    width: 95%;
+    width: 100%;
     margin: 80px auto;
   }
 
   .ext-hero-section img {
     width: 327px;
     height: 168px;
+  }
+
+  .affiliation .affiliation-companies {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    width: 100%;
+    margin: 30px auto;
+    gap: 20px;
+    align-items: center;
   }
 
   .affiliation {
