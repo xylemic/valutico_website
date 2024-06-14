@@ -1,0 +1,428 @@
+/* xl */
+@media (max-width: 1280px) {
+  .wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  /* heade section  */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .header .nav-section {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 30px auto;
+  }
+
+  .nav-section .nav-menu .first-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    /* border: 3px solid purple; */
+  }
+
+  /* .nav-section .nav-menu .first-ul li {
+  border: 3px solid purple;
+} */
+
+  .nav-section .nav-menu .first-ul li a {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 27.32px;
+    font-weight: 700;
+    color: #636363;
+    margin-right: 15px;
+  }
+
+  .nav-section .nav-menu .first-ul li a:hover {
+    color: #065666;
+  }
+
+  .nav-section .nav-menu .first-ul .home {
+    color: #065666;
+  }
+
+  .nav-section .nav-menu .first-ul li i {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #636363;
+  }
+
+  .header-button button {
+    padding: 19px 30px;
+    font-size: 1.2rem;
+    border-radius: 16px;
+    border: none;
+    background: #6fc247;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header-button button i {
+    margin-left: 10px;
+    font-size: 1.1rem;
+  }
+
+  .header-button button:hover {
+    background: #fff;
+    color: #6fc247;
+    border: 1px solid #6fc247;
+    cursor: pointer;
+  }
+
+  /* end of header section  */
+
+  /* hero-section */
+  .hero-section {
+    padding: 180px 0 50px 0;
+    /* margin: 80px auto; */
+    margin-left: 32%;
+    width: 63%;
+  }
+
+  .hero-section h1 {
+    text-align: left;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 87.42px;
+    color: #373737;
+    margin-bottom: 25px;
+  }
+
+  .hero-section p {
+    text-align: left;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 43.2px;
+    color: #373737;
+    margin-bottom: 100px;
+  }
+
+  .hero-section .hero-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .hero-section .hero-button .demo {
+    padding: 19px 30px;
+    margin-right: 30px;
+    border-radius: 16px;
+    border: none;
+    background: #6fc247;
+    font-size: 1.3rem;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hero-section .hero-button .demo i {
+    margin-left: 10px;
+    font-size: 1.1rem;
+  }
+
+  .hero-section .hero-button .demo:hover {
+    background: #fff;
+    color: #6fc247;
+    border: 1px solid #6fc247;
+    cursor: pointer;
+  }
+
+  .hero-section .hero-button .sign-up {
+    padding: 19px 50px;
+    border-radius: 16px;
+    border: 1px solid #6fc247;
+    background: #fff;
+    font-size: 1.3rem;
+    color: #6fc247;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hero-section .hero-button .sign-up:hover {
+    cursor: pointer;
+    background: #6fc247;
+    color: #fff;
+  }
+
+  /* end of hero-section */
+
+  /* extension of hero-section */
+  .ext-hero-section {
+    width: 93%;
+    margin: 80px auto;
+    /* border: 2px solid red; */
+  }
+
+  /* end of extension of hero-section */
+
+  /* affiliation section */
+  .affiliation {
+    width: 100%;
+    padding: 0 115px 115px;
+  }
+
+  .affiliation .affiliation-text-content {
+    width: 82%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .affiliation h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.71px;
+    margin-bottom: 15px;
+  }
+
+  .affiliation p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .affiliation .affiliation-companies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 93%;
+    margin: 30px auto;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .affiliation .affiliation-companies img {
+    width: 100%;
+  }
+
+  /* end of affiliation section */
+
+  /* why valutico frame section */
+  .why-valutico {
+    width: 100%;
+    padding: 72px 103px 85px 103px;
+    background: #111;
+    color: #fff;
+    height: 600px;
+  }
+
+  .why-valutico .why-text-content {
+    text-align: center;
+    width: 69%;
+    margin: 0 auto;
+  }
+
+  .why-valutico .why-text-content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54.64px;
+    margin-bottom: 25px;
+  }
+
+  .why-valutico .why-text-content p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .why-valutico .list-why {
+    /* border: 2px solid white; */
+    width: 95%;
+    margin: 60px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .why-valutico .list-why .secure h3 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+  }
+
+  .why-valutico .list-why .secure p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 88%;
+  }
+
+  .why-valutico .list-why .reliable h3 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+  }
+
+  .why-valutico .list-why .reliable p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 95%;
+  }
+
+  .why-valutico .list-why .dedication-to-success h3 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+  }
+
+  .why-valutico .list-why .dedication-to-success p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 90%;
+  }
+
+  /* end of why valutico frame section */
+
+  /* last-section section */
+  .last-section {
+    width: 100%;
+    height: 1284px;
+    padding: 64px 0;
+  }
+
+  .last-section .last-section-text-content {
+    width: 100%;
+    height: 169px;
+  }
+
+  .last-section .last-section-text-content h2 {
+    width: 367px;
+    height: 33px;
+    font-size: 20px;
+    line-height: 32.78px;
+  }
+
+  .last-section .last-section-text-content p {
+    font-size: 15px;
+    line-height: 30px;
+    width: 100%;
+    height: 120px;
+    margin: 20px auto;
+  }
+
+  .last-section .last-section-text-img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .last-section .last-section-text-img .right-side {
+    margin: 0 auto;
+  }
+
+  .last-section .last-section-text-img img {
+    width: 329px;
+    height: 310px;
+  }
+
+  .last-section-text-img .left-side {
+    width: 477px;
+    height: 643px;
+    margin: 0 auto;
+  }
+
+  .last-section-text-img .left-side .personalize {
+    width: 393px;
+    height: 225px;
+    padding: 32px;
+    margin: 0 auto;
+  }
+
+  .last-section-text-img .left-side .personalize h3 {
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    line-height: 24.59px;
+  }
+
+  .last-section-text-img .left-side .personalize p {
+    width: 100%;
+    height: 120px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 18px;
+  }
+
+  .last-section-text-img .left-side .valuation {
+    width: 393px;
+    height: 225px;
+    padding: 32px;
+    margin: 0 auto;
+  }
+
+  .last-section-text-img .left-side .valuation h3 {
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    line-height: 24.59px;
+  }
+
+  .last-section-text-img .left-side .valuation p {
+    width: 100%;
+    height: 120px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 18px;
+  }
+
+  .last-section-text-img .left-side .fast-access {
+    width: 393px;
+    height: 225px;
+    padding: 32px;
+    margin: 0 auto;
+  }
+
+  .last-section-text-img .left-side .fast-access h3 {
+    width: 100%;
+    height: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.59px;
+  }
+
+  .last-section-text-img .left-side .fast-access p {
+    width: 100%;
+    width: 100%;
+    height: 120px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 18px;
+  }
+
+  .last-section .last-section-button {
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .last-section .last-section-button button {
+    padding: 12px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .last-section .last-section-button button i {
+    font-size: 0.8rem;
+  }
+}
